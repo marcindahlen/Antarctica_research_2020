@@ -9,7 +9,7 @@ Summary of what I've done:
 1. Define objects 'Session' and 'Person' to hold the data in useful form, organised by sessions, or by men
 1. Find general tendency how people marked other on charts during sessions
 1. Find general tendency how people were marked by others
-1. Create weighted graphs of relations, one for each session for futher use
+1. Create weighted graphs of relations, one for each session for further use
 1. Find how graph centrality changed over the sessions
 1. Define and investigate the summary graph
 1. How do sessions' graphs vary?
