@@ -12,7 +12,6 @@ Summary of what I've done:
 1. Create weighted graphs of relations, one for each session for further use
 1. Find how graph centrality changed over the sessions
 1. Define and investigate the summary graph
-1. How do sessions' graphs vary?
 1. Find what groups did people created
 1. Who was most infuential among the men?
 1. How one's view about others shaped the view others had about him?
