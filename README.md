@@ -15,8 +15,8 @@ Summary of what I've done:
 1. Find how graph centrality changed over the sessions
 1. Define and investigate the summary graph
 1. Find what groups did people created
-1. Group persistence index
 1. Who was most infuential among the men?
+1. Group persistence index
 1. How influence shaped and how was it connected to input data patterns?
 1. How one's view about others shaped the view others had about him?
 1. A look on statistical significances
