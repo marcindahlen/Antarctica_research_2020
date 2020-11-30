@@ -22,3 +22,5 @@ Summary of what I've done:
 1. A look on statistical significances
 1. Speculation: space mission predictions
 1. Summary and insights
+
+*Please notice that sometimes Github doesn't load jupyter notebook properly, and the notebook needs to be refreshed several times.*
