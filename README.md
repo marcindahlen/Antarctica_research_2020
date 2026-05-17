@@ -1,26 +1,37 @@
+### Antarctic Spatial Sociometry Analysis
+
 Between winter 79' and autumn 80' prof. dr hab. Terelak stayed on [Arctowski research station](https://en.wikipedia.org/wiki/Henryk_Arctowski_Polish_Antarctic_Station) and gathered data about scientists' social interactions. Now, in the advent of long-term manned space missions it is especially valuable to analyze the data and learn from it.
 
 In [this Jupyter notebook](https://github.com/marcindahlen/Antarctica_research_2020/blob/master/notebook.ipynb) I performed some basic summary statistics about the data I received.
 
-I've transformed the data from point coordinates marked on charts to distances. This unfortunately has caused the loss of the plausible patterns people used to mark their opinions. With the distances organized by people by sessions, I've looked at how those changed through time, I've created sample graphs of parallel (and mutual) relations and used the graphs to get closeness centralities. Finally, I've plotted a graph defined by mean closeness centralities across all sessions, and peeked into possible groups of people. Done all this, I've tried to come with some insights from what I've learned.
+The notebook investigates three primary questions:
 
-Summary of what I've done:
-1. Introduction
-1. Glossary of terms used
-1. Load the data from excel as-is
-1. Define objects 'Session' and 'Person' to hold the data in useful form, organised by sessions, or by men
-1. Find general tendency how people marked other on charts during sessions
-1. Find general tendency how people were marked by others
-1. Create weighted graphs of relations, one for each session for further use
-1. Find how graph centrality changed over the sessions
-1. Define and investigate the summary graph
-1. Find what groups did people created
-1. Who was most infuential among the men?
-1. Group persistence index
-1. How influence shaped and how was it connected to input data patterns?
-1. How one's view about others shaped the view others had about him?
-1. A look on statistical significances
-1. Speculation: space mission predictions
-1. Summary and insights
+#### 1. Temporal sensitivity
+Are spatial relation maps more temporally responsive than classical nomination-based sociometric status measures?
+
+#### 2. Event responsiveness
+Do spatial relation changes align with documented interpersonal tensions, subgroup formation, and social events observed during the expedition?
+
+#### 3. Spatial-only relational affordances
+What additional dyadic and network-level information becomes accessible when interpersonal relations are represented as continuous spatial structures rather than categorical sociometric statuses?
+
+
+The analyses combine two complementary archival datasets collected repeatedly during the expedition:
+
+#### Spatial sociometry ("relation maps")
+Participants marked all other crew members on two-dimensional charts according to perceived interpersonal closeness.  
+The notebook transforms these point placements into:
+
+- pairwise interpersonal distances,
+- continuous closeness measures,
+- weighted directed relational networks,
+- temporal relational trajectories.
+
+#### Nomination-based sociometry
+The expedition also used a classical sociometric nomination procedure based on the Sympathy–Antipathy Plebiscite (Pilkiewicz, 1973a,b), producing repeated sociometric status categories over time.
+
+Unlike the spatial data, the surviving nomination data are available only as aggregated person-session sociometric outcomes rather than full dyadic matrices.
+
+
 
 *Please notice that sometimes Github doesn't load jupyter notebook properly, and the notebook needs to be refreshed several times.*
